@@ -1,0 +1,186 @@
+body{
+    font-family:'Cairo';
+}
+/*start navbar*/
+nav img.logo{
+    height: 60px;
+}
+
+/*end navbar*/
+
+/*start our vision*/
+section.our-vision{
+    padding-bottom: 4.5rem ;
+}
+.title{
+    background-image: url('../imgs/header-side.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;/*search about it */
+}
+section.our-vision h2{
+    margin-top: 150px;
+    font-size: 3.3rem;
+    text-align: right;
+    line-height: 5rem;
+}
+@media (max-width:576px){
+    section.our-vision h2{
+        margin-top: 50px;
+    }
+}
+section.our-vision img{
+    width: 100%;
+}
+/*end our vision*/
+
+/*start who-we-are*/
+section.who-we-are h2{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+section.who-we-are hr{
+    width: 5rem;
+    border: 1px solid royalblue;
+}
+section.who-we-are p{
+    font-size:1.5rem;
+    margin: 4rem 6rem 0 0;
+    text-align: right;
+
+}
+@media (max-width:576px){
+    section.who-we-are p{
+        
+        margin: 4rem 1rem 0 0;
+        
+    
+    }
+}
+section.who-we-are img{
+    width: 100%;
+}
+/*end who-we-are*/
+
+/*start our-service*/
+section.our-service h2{
+    padding-bottom: 1rem;
+}
+section.our-service hr{
+    width: 5rem;
+    border: 1px solid royalblue;
+}
+section.our-service .slider{
+    background-image: url('../imgs/we-offer.png');
+    background-size: cover;
+}
+section.our-service .slider .slider-card{
+    border-radius: 10%;
+}
+/*end our-service*/
+
+/*start samble of our projects*/
+section.samble-projects h2{
+    padding-bottom: 1rem;
+}
+section.samble-projects hr{
+    width: 5rem;
+    border: 1px solid royalblue;
+}
+.the-main-father{
+    background-image: url('../imgs/bg30-Ar1web.gif');
+    background-repeat: repeat;
+}
+.the-main-father .my-card{
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: #fff;
+   
+}
+.the-main-father .my-card img {
+    border-radius:10% ;
+    height: 17.5rem;
+    
+}
+.the-main-father .see-more-btn{
+    background-color: blue;
+    padding: 10px;
+    width: 300px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+/*end samble of our projects*/
+
+/*start read topics*/
+.read-topics .my-card-topics{
+    box-shadow: 1px 1px 2px gray;
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: #fff;
+}
+.read-topics .my-card-topics img {
+    border-radius:10% ;
+    height: 16rem;
+    
+}
+.read-topics .my-card-topics button{
+    background-color: blue;
+    padding: 10px;
+    width:100px ;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    right: 15px;
+    bottom: 15px;
+}
+.read-topics .my-card-topics span{
+    left: 15px;
+    bottom: 40px;
+}
+.read-topics .more-btn{
+    background-color: blue;
+    padding: 10px;
+    width: 300px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+/*end read topics*/
+
+/*start our broud customer*/
+.our-broud-customer hr{
+    width: 5rem;
+    border: 1px solid royalblue;   
+}
+.our-broud-customer .slider-section{
+    background-image: url('../imgs/our-client-bg.jpg');
+    background-size: cover;
+    
+}
+.our-broud-customer .slider-section .slider-card{
+    border-radius: 10%;
+    overflow: hidden;
+}
+/*end our broud customer*/
+
+/*start footer*/
+footer{
+    background-image: url('../imgs/footer.jpg');
+    background-size: cover;
+    height: 600px;
+}
+footer .right img{
+    height: 400px;
+}
+footer .left i{
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 1.5rem;
+}
+footer .left img{
+    height: 75px;
+}
+footer .left h5{
+    color: #fff;
+}
+/*end footer*/
